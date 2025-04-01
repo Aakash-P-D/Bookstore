@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #eeff00;
+}
+
+header {
+    background: #00c2f7;
+    color: rgb(248, 8, 140);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background: #bb01ff;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav a {
+    color: rgba(3, 3, 3, 0.904);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.slider img {
+    width: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider img:hover {
+    transform: scale(1.1);
+}
+
+.countdown {
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+}
+
+#blink {
+    color: red;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    background: rgb(235, 188, 182);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #00d0ff;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#errorMsg {
+    color: red;
+}
